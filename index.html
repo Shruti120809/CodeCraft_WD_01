@@ -3,11 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landng Page | CodeCraft</title>
+    <title>Landing Page | CodeCraft</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav_header">
-        
-    </div>
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#"> CodeCraft <span> Innovation </span>
+                </a>
+            </div>
+            <div class="nav_menu_btn" id="menu_btn">
+                <span> <i class="ri-menu-line"></i> </span>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav_links"> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <div class="nav_btns">
+            <button class="btn sign_up">Sign Up</button>
+            <button class="btn sign_in">Sign In</button>
+        </div>
+    </nav>
+    <header class="header_container">
+        <div class="header_image">
+            <div class="header_img_card header_img_card-1">
+                <span><i class="ri-android-line"></i></span>
+                Android
+            </div>
+            <div class="header_img_card header_img_card-2">
+                <span><i class="ri-openai-fill"></i></span>
+                AI/ML
+            </div>
+            <div class="header_img_card header_img_card-3">
+                <span><i class="ri-bubble-chart-line"></i></span>
+                Data Science
+            </div>
+            <div class="header_img_card header_img_card-4">
+                <span><i class="ri-code-box-line"></i></span>
+                Web Development
+            </div>
+            <img src="assets/header.png" alt="header" height="700px"/>
+        </div>
+        <div class="header_content">
+            <h1> Dive Into <br> the World of <br><span>Tech</span> </h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, temporibus laboriosam at nobis animi officiis repudiandae velit ipsa, repellat dignissimos nesciunt perspiciatis corrupti rem quo cumque nulla nam. Placeat, aliquam!
+            </p>
+            <form action="/">
+                <div class="input_row">
+                    <div class="input_group">
+                        <h5> <span><i class="ri-chat-smile-line"></i> </span> Course</h5>
+                            <input type="text" name="course" placeholder="B.tech/BCA"/>
+                    </div>
+                    <div class="input_group">
+                        <h5> <span><i class="ri-calendar-line"></i></span> Schedule</h5>
+                            <input type="text" name="schedule" placeholder="dd-mm-yyyy"/>
+                    </div>
+                </div>
+                <button type="submit">Search</button>
+            </form>
+            <div class="bar">
+                Copyright &copy 2024 Shruti Pancholi. All rights reserved
+            </div>
+        </div>
+    </header>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
 </body>
 </html>
